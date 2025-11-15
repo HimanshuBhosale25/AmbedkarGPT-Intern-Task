@@ -73,22 +73,31 @@ Before running this project, ensure you have:
 
 **Install Ollama and Mistral:**
 
-```   # Download and install Ollama from https://ollama.com/download  # Then pull the Mistral model:  ollama pull mistral   ```
+```bash   
+# Download and install Ollama from https://ollama.com/download  # Then pull the Mistral model:  
+ollama pull mistral  
+ ```
 
 📦 **Installation**
 -------------------
 
 1️⃣ **Clone the Repository:**
 
-```   git clone https://github.com/HimanshuBhosale25/RAG-Task.git  cd Task   ```
+```bash   
+git clone https://github.com/HimanshuBhosale25/RAG-Task.git  cd Task   
+```
 
 2️⃣ **Initialize uv for project:**
 
-```   uv init   ```
+```bash   
+uv init   
+```
 
 3️⃣ **Install Dependencies:**
 
-```   uv sync   ```
+```bash   
+uv sync   
+```
 
 **Note:** First run will download the sentence-transformers model (~120MB), which takes 2-5 minutes.
 
@@ -97,20 +106,28 @@ Before running this project, ensure you have:
 
 **Interactive Mode (Recommended):**
 
-```   uv run main.py   ```
+```bash   
+uv run main.py   
+```
 
 
 **Single Question Mode:**
 
-```   uv run main.py -q "What is the real enemy?"   ```
+```bash   
+uv run main.py -q "What is the real enemy?"  
+```
 
 **Force Rebuild Vector Store:**
 
-```   uv run main.py --rebuild   ```
+```bash   
+uv run main.py --rebuild   
+```
 
 **Custom Speech File:**
 
-```   uv run main.py --speech-file "path/to/custom/speech.txt"   ```
+```bash   
+uv run main.py --speech-file "path/to/custom/speech.txt"   
+```
 
 📊 **Sample Output**
 
@@ -172,7 +189,7 @@ Before running this project, ensure you have:
 
 Core packages (see pyproject.toml for full list):
 
-`
+```
 langchain>=1.0.7
 langchain-community>=0.4.1
 langchain-ollama>=1.0.0
@@ -181,7 +198,7 @@ langchain-chroma>=0.2.0
 langchain-classic>=1.0.0
 chromadb>=1.3.4
 sentence-transformers>=5.1.2
-`
+```
 
 📂 **Deliverables**
 -------------------
