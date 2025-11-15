@@ -84,7 +84,7 @@ ollama pull mistral
 1️⃣ **Clone the Repository:**
 
 ```bash   
-git clone https://github.com/HimanshuBhosale25/RAG-Task.git  cd Task   
+git clone https://github.com/HimanshuBhosale25/AmbedkarGPT-Intern-Task.git  cd Task   
 ```
 
 2️⃣ **Initialize uv for project:**
